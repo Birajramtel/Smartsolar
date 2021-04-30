@@ -1,0 +1,210 @@
+/*
+
+.dashboard {
+	background: #2f457c;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	line-height: 20px;
+	letter-spacing: .02em;
+	color: white;
+}
+.section li a{
+	color: white;
+}
+.section li a:active{
+	color: white;
+}
+.nav_username{
+	line-height:2.25rem;
+	padding-right:1rem; 
+}
+.row{
+	margin-top:3px;
+}
+
+#content {
+  padding: 40px;
+  margin:auto;
+}
+.btn_submit{
+	float: right;
+	margin-right: 20
+}
+
+#content h2 {
+  margin: -30px 0 0 270px;
+  padding: 5px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #833B0B;
+  background: inherit;
+}
+
+*/
+/* 
+-----------------------------------
+-----------------------------------
+system_management 
+*/
+.logo{
+	width: 150px;
+}
+.system_management{
+	background: #FFFFFF;
+	border: 1.5px solid #FFFFFF;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+    margin-top:20px;
+}
+.dashboard {
+    background: #2f457c;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: .02em;
+    color: white;
+}
+
+/*
+-----------------------------------
+-----------------------------------
+Register_user_management
+*/
+.register_user_management{
+    background: #FFFFFF;
+    padding: auto; 
+    border: 1.5px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+    margin-top:20px;	
+}
+
+/*-----------------------------
+---------------*/
+/*!
+ * Start Bootstrap - Simple Sidebar HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Toggle Styles */
+
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+    padding-left: 250px;
+}
+
+#sidebar-wrapper {
+    position: fixed;
+    left: 250px;
+    z-index: 1000;
+    overflow-y: auto;
+    margin-left: -250px;
+    width: 0;
+    height: 100%;
+    background: #000;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 250px;
+}
+
+#page-content-wrapper {
+    padding: 15px;
+    width: 100%;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -250px;
+}
+
+/* Sidebar Styles */
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    color: #999999;
+    text-decoration: none;
+}
+
+.sidebar-nav li a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: #000;
+    text-decoration: none;
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    background: none;
+    color: #000;
+}
+
+@media (min-width: 768px) {
+    #wrapper {
+        padding-left: 250px;
+    }
+
+    #wrapper.toggled {
+        padding-left: 0;
+    }
+
+    #sidebar-wrapper {
+        width: 250px;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 0;
+    }
+
+    #page-content-wrapper {
+        padding: 20px;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+    }
+}
